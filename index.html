@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USD To INR</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: rgb(235, 155, 249);
+      }
+      .container {
+        border: 2px solid purple;
+        border-radius: 20px;
+        width: 400px;
+        margin: 50px auto;
+        text-align: center;
+        background-color: rgb(246, 246, 107);
+      }
+      .buttons {
+        justify-content: space-around;
+      }
+      .btn {
+        width: 100px;
+        margin: 15px 35px;
+        padding: 3px;
+      }
+      h1 {
+        margin: 15px 0;
+      }
+      button {
+        border: none;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 75px;
+        padding: 5px 10px;
+        font-size: 15px;
+        background-color: blue;
+        color: yellow;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>USD To INR Converter</h1>
+      <p>
+        This is a simple javascript application to convrert the value from usd
+        to inr. Just enter the value in usd and hit convert button to get into
+        inr
+      </p>
+      <div class="buttons">
+        <input type="text" name="" id="usd" placeholder="USD" class="btn" />
+        <input type="text" name="" id="inr" placeholder="INR" class="btn" />
+      </div>
+      <button id="submit">Submit</button>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
